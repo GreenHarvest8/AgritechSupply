@@ -49,7 +49,7 @@
         }
         .image-placeholder {
             background-color: #ccc;
-            height: 150px; /* Adjust height as needed */
+            height: 300px; /* Adjust height as needed */
             margin: 20px 0;
             display: flex;
             align-items: center;
@@ -63,6 +63,9 @@
             height: 100%; /* Ensure it covers the height */
             object-fit: cover; /* Maintain aspect ratio while covering */
             border-radius: 8px;
+            position: absolute; /* Take the image out of the normal flow */
+            top: 0; /* Align to the top */
+            left: 0; /* Align to the left */
         }
     </style>
 </head>
