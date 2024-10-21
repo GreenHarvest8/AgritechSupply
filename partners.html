@@ -51,8 +51,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            margin-top:
-                            20px;
+            margin-top: 20px;
         }
         .partners div {
             flex: 1 1 45%;
@@ -74,6 +73,13 @@
             align-items: center;
             justify-content: center;
             color: #666;
+            border-radius: 8px;
+            overflow: hidden; /* Prevents image overflow */
+        }
+        .image-placeholder img {
+            width: 100%; /* Stretch image to cover the entire placeholder */
+            height: 100%; /* Ensure it covers the height */
+            object-fit: cover; /* Maintain aspect ratio while covering */
             border-radius: 8px;
         }
     </style>
@@ -101,17 +107,26 @@
         <div class="partners">
             <div>
                 <h3>AgroTech Solutions</h3>
-                <div class="image-placeholder">Placeholder for AgroTech Logo</div>
+                <div class="image-placeholder">
+                    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/refs/heads/main/Agrotech%20Solutions.png" 
+                         alt="AgroTech Solutions">
+                </div>
                 <p>Providing advanced greenhouse and vertical farming technologies across Southeast Asia.</p>
             </div>
             <div>
                 <h3>FarmTech Innovations</h3>
-                <div class="image-placeholder">Placeholder for FarmTech Logo</div>
+                <div class="image-placeholder">
+                    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/refs/heads/main/farm%20tech.png" 
+                         alt="FarmTech Innovations">
+                </div>
                 <p>Experts in post-harvest automation, offering state-of-the-art grading and packaging systems.</p>
             </div>
             <div>
                 <h3>GreenEnergy Systems</h3>
-                <div class="image-placeholder">Placeholder for GreenEnergy Logo</div>
+                <div class="image-placeholder">
+                    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/refs/heads/main/green%20energy.png" 
+                         alt="GreenEnergy Systems">
+                </div>
                 <p>Supplying energy-efficient climate control systems for sustainable greenhouse farming.</p>
             </div>
         </div>
