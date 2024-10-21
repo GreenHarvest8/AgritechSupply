@@ -80,6 +80,14 @@
             justify-content: center;
             color: #666;
             border-radius: 8px;
+            overflow: hidden; /* Ensures that the image does not overflow the box */
+        }
+        .image-placeholder img {
+            width: 200%; /* Make the image larger */
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -107,31 +115,25 @@
             <div>
                 <h3>Turnkey Automation</h3>
                 <div class="image-placeholder">
-  <div class="image-placeholder" style="margin-bottom: 20px; overflow: hidden; width: 100%;">
-    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/main/Turnkey%20Automation.jpg" 
-         alt="Turnkey Automation" 
-         style="width: 200%; height: auto; border-radius: 8px; display: block; margin: 0 auto;">
-</div>
-<p>Complete solutions for agricultural needs, from design to deployment.</p>
-
-
-                
+                    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/main/Turnkey%20Automation.jpg" 
+                         alt="Turnkey Automation">
+                </div>
+                <p>Complete solutions for agricultural needs, from design to deployment.</p>
             </div>
             <div>
                 <h3>Custom Designs</h3>
-                <div class="image-placeholder" style="margin-bottom: 20px; overflow: hidden; width: 100%; padding: 20px;">
-    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/main/Custom%20Designs.jpg" 
-         alt="Custom Designs" 
-         style="width: 200%; height: auto; border-radius: 8px; display: block; margin: 0 auto;">
-</div>
-<p>Tailored high-tech farming systems to maximize efficiency.</p>
-
-
-               
+                <div class="image-placeholder">
+                    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/main/Custom%20Designs.jpg" 
+                         alt="Custom Designs">
+                </div>
+                <p>Tailored high-tech farming systems to maximize efficiency.</p>
             </div>
             <div>
                 <h3>Technology Integration</h3>
-                <div class="image-placeholder">Placeholder for Technology Integration Image</div>
+                <div class="image-placeholder">
+                    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/main/Technology%20Integration.jpg" 
+                         alt="Technology Integration">
+                </div>
                 <p>Expertise in project management and seamless technology integration.</p>
             </div>
         </div>
