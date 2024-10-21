@@ -66,21 +66,19 @@
             transform: translateY(-5px);
         }
         .image-placeholder {
-            background-color: #ccc;
-            height: 150px;
             margin: 10px 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #666;
             border-radius: 8px;
             overflow: hidden; /* Prevents image overflow */
+            height: 150px; /* Set height for consistency */
+            background-color: transparent; /* Make placeholder invisible */
         }
         .image-placeholder img {
-            width: 100%; /* Stretch image to cover the entire placeholder */
-            height: 100%; /* Ensure it covers the height */
-            object-fit: cover; /* Maintain aspect ratio while covering */
-            border-radius: 8px;
+            max-width: 100%; /* Maintain aspect ratio */
+            max-height: 100%; /* Limit height */
+            object-fit: contain; /* Center the image */
         }
     </style>
 </head>
