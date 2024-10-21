@@ -57,15 +57,13 @@
             color: #666;
             border-radius: 8px;
             overflow: hidden; /* Prevents image overflow */
+            position: relative; /* Allow positioning of the image within this div */
         }
         .image-placeholder img {
             width: 100%; /* Stretch image to cover the entire placeholder */
             height: 100%; /* Ensure it covers the height */
             object-fit: cover; /* Maintain aspect ratio while covering */
             border-radius: 8px;
-            position: absolute; /* Take the image out of the normal flow */
-            top: 0; /* Align to the top */
-            left: 0; /* Align to the left */
         }
     </style>
 </head>
