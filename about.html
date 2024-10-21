@@ -49,12 +49,18 @@
         }
         .image-placeholder {
             background-color: #ccc;
-            height: 150px;
+            height: 150px; /* Adjust height as needed */
             margin: 20px 0;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #666;
+            border-radius: 8px;
+            overflow: hidden; /* Prevents image overflow */
+        }
+        .image-placeholder img {
+            width: 50%; /* Limit the image to 50% of its original size */
+            height: auto; /* Maintain aspect ratio */
             border-radius: 8px;
         }
     </style>
@@ -82,7 +88,9 @@
         <p>To empower farmers and agricultural businesses with sustainable, automated solutions that maximize efficiency and growth.</p>
         <h3>Vision</h3>
         <p>To lead the transformation of agriculture through innovation and technology.</p>
-        <div class="image-placeholder">Placeholder for About Us Image</div>
+        <div class="image-placeholder">
+            <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/refs/heads/main/About%20Us.jpg" alt="About Us">
+        </div>
     </section>
 
     <footer>
