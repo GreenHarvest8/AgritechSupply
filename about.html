@@ -59,8 +59,9 @@
             overflow: hidden; /* Prevents image overflow */
         }
         .image-placeholder img {
-            width: 50%; /* Limit the image to 50% of its original size */
-            height: auto; /* Maintain aspect ratio */
+            width: 100%; /* Stretch image to cover the entire placeholder */
+            height: 100%; /* Ensure it covers the height */
+            object-fit: cover; /* Maintain aspect ratio while covering */
             border-radius: 8px;
         }
     </style>
