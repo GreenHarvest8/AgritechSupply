@@ -73,6 +73,13 @@
             justify-content: center;
             color: #666;
             border-radius: 8px;
+            overflow: hidden; /* Prevents image overflow */
+        }
+        .image-placeholder img {
+            width: 100%; /* Stretch image to cover the entire placeholder */
+            height: 100%; /* Ensure it covers the height */
+            object-fit: cover; /* Maintain aspect ratio while covering */
+            border-radius: 8px;
         }
     </style>
 </head>
@@ -99,41 +106,55 @@
         <div class="projects">
             <div>
                 <h3>2017 - Kok Fah Technology Farm Showcase Greenhouse & Hydroponics (3000 sqm)</h3>
-               <div class="image-placeholder">
-    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/main/2017%20-%20Kok%20Fah%20Technology%20Farm%20Showcase%20Greenhouse%20&%20Hydroponics%20(3000%20sqm).jpg" 
-         alt="Kok Fah Technology Farm" 
-         style="max-width: 100%; height: auto; border-radius: 8px; display: block;">
-</div>
+                <div class="image-placeholder">
+                    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/main/2017%20-%20Kok%20Fah%20Technology%20Farm%20Showcase%20Greenhouse%20&%20Hydroponics%20(3000%20sqm).jpg" 
+                         alt="Kok Fah Technology Farm">
+                </div>
                 <p>Installed a high-tech greenhouse and hydroponics system, boosting production efficiency and yields.</p>
             </div>
 
             <div>
                 <h3>2019 - Institute of Mental Hospital Learning Journey Greenhouse & Hydroponics (750 sqm)</h3>
-                <div class="image-placeholder">Image Placeholder for Institute of Mental Hospital</div>
+                <div class="image-placeholder">
+                    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/refs/heads/main/2019%20-%20Institute%20of%20Mental%20Hospital%20Learning%20Journey%20Greenhouse%20%26%20Hydroponics%20(750%20sqm).png" 
+                         alt="Institute of Mental Hospital">
+                </div>
                 <p>Developed a greenhouse and hydroponics system for educational purposes, promoting sustainability in agriculture.</p>
             </div>
 
             <div>
                 <h3>2020 - Hwa Chong Junior College Greenhouse & Hydroponics (1500 sqm)</h3>
-                <div class="image-placeholder">Image Placeholder for Hwa Chong Junior College</div>
+                <div class="image-placeholder">
+                    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/refs/heads/main/2020%20-%20Hwa%20Chong%20Junior%20College%20Greenhouse%20%26%20Hydroponics.jpg" 
+                         alt="Hwa Chong Junior College">
+                </div>
                 <p>Designed and installed a greenhouse and hydroponics system to support the institution's learning programs.</p>
             </div>
 
             <div>
                 <h3>2021 - Maldives Greenhouse & Hydroponics (2000 sqm)</h3>
-                <div class="image-placeholder">Image Placeholder for Maldives Project</div>
+                <div class="image-placeholder">
+                    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/refs/heads/main/2021%20-%20Maldives%20Greenhouse%20%26%20Hydroponics.jpg" 
+                         alt="Maldives Greenhouse">
+                </div>
                 <p>Implemented a cutting-edge greenhouse and hydroponics system tailored to the unique climate of the Maldives.</p>
             </div>
 
             <div>
                 <h3>2022 - Mei Hwa High Tech Greenhouse & Growing System (5000 sqm)</h3>
-                <div class="image-placeholder">Image Placeholder for Mei Hwa High Tech</div>
+                <div class="image-placeholder">
+                    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/refs/heads/main/2022%20-%20Mei%20Hwa%20High%20Tech%20Greenhouse%20%26%20Growing%20System.jpg" 
+                         alt="Mei Hwa High Tech Greenhouse">
+                </div>
                 <p>Installed a high-tech greenhouse and advanced growing system to optimize large-scale crop production.</p>
             </div>
 
             <div>
                 <h3>2023 - Green Harvest Semi Closed Greenhouse & Growing System (15000 sqm)</h3>
-                <div class="image-placeholder">Image Placeholder for Green Harvest</div>
+                <div class="image-placeholder">
+                    <img src="https://raw.githubusercontent.com/GreenHarvest8/AgritechSupply/refs/heads/main/2023%20-%20Green%20Harvest%20Semi%20Closed%20Greenhouse%20%26%20Growing%20System.png" 
+                         alt="Green Harvest Semi Closed Greenhouse">
+                </div>
                 <p>Developed a semi-closed greenhouse with advanced automation and growing systems, increasing yields by 30%.</p>
             </div>
         </div>
